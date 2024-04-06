@@ -1,0 +1,117 @@
+<html>
+<title>Cane Nero</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+@font-face {
+  font-family:"test"; font-weight: 200 700;
+  src:url("/Pass-A38/font/Pass_A38.woff2") format("woff2-variations");
+}
+@font-face {
+  font-family:"test2"; font-style: normal;
+  src:url("font/CaneNero.woff2") format("woff2");
+}
+@font-face {
+  font-family:"test3"; font-style: normal;
+  src:url("/Vermiglione/font/vermiglione.woff2") format("woff2");
+}
+body { font-family:"test", sans-serif; font-size:16pt;margin:0;padding:0; background: #f3f1ea }
+div { margin:0; padding:0; }
+
+a { color: #06c }
+
+header { width: 100%; margin:0; padding:0 }
+header > div { width:100%; color: #fff }
+header > div.info { background: #5a5351; }
+header > div.titolo { background: #918583; }
+header > div > div { width: 1180px; margin: 0px auto; padding:0 }
+header div div p { margin:0;padding:5px 10px; font-size: 14pt }
+header div div h1 { margin:0;padding:20px 10px; font-size: 30px; font-weight: 400; color: #fff }
+
+section { width: 1180px; margin:60px auto 60px; padding:0 }
+article { width: 890px; margin: 0px 0 0px 290; padding:0 }
+article p { margin: 5px 10px; padding:0; color: #332925 }
+article p.nota { font-size: 14pt; color: #444 }
+article p.nota a.refn { font-weight: 600; }
+
+
+h2 { font-family:"test", sans-serif; margin:30px 10px;padding:0; font-size: 48px; font-weight: 400; color: #800 }
+h3 { font-family:"test", sans-serif; margin:20px 10px;padding:0; font-size: 40px; font-weight: 400; color: #800 }
+h4 { margin:20px 10px;padding:0; font-size: 24px; font-weight: 400; color: #800 }
+
+a.bia { color: #fff }
+a.ref { font-size: 60%; vertical-align: super; font-weight: 700 }
+
+hr { border:0; border-bottom: 1px solid #666; margin: 20px; padding:0 }
+
+.testo { color: #000; width:90%; margin: 20px 10px; border: 1px solid #888; font-family:"test2", sans-serif; font-size:64pt; background: #f3f1ea; padding: 4px; line-height: 1em }
+
+footer { padding:0; margin:0; width: 100%; background: #666; color: #fff }
+footer > div { padding:40 0; margin:0 auto; width: 1180px }
+footer p { margin: 0 10px; font-size: 18px }
+
+div.side {width: 249px; margin: 30px 0 0; padding:10px 10px 5px; float:left; border-right:1px solid #555; color: #666 }
+
+.evid { color: #000; background: #e9e5d8 }
+
+p.capol { font-family: "test3", sans-serif; font-size: 18pt; line-height: 1.2em; border-left: 5px solid #ccc; padding-left: 10px; margin: 15px 10px 15px 20px; }
+p.capol:first-letter { font-family: "test2", sans-serif; float: left; font-size: 6em; margin: 0.05em 0.1em 0 0; color: #c9211e }
+	
+p.alfa { font-family: "test2", sans-serif; font-size: 64pt; margin: 15px 10px; color: #c9211e  }
+.ss01 { font-feature-settings: 'ss01' }
+.dlig { font-feature-settings: 'dlig' }
+	
+@media only screen and (max-width: 1200px) {
+ header > div > div { width: 100%; }
+ section { width: 100% }
+ article { width: 100%; margin: 0; }
+ footer > div { width: 100% }
+ div.side {display:none }
+}
+</style>
+<body>
+	<header>
+		<div class="info">
+			<div>
+				<p><a href="https://github.com/m-casanova/CaneNero" class="bia">← Github</a></p>
+			</div>
+		</div>
+		<div class="titolo">
+			<div>
+				<h1>Cane Nero</h1>
+			</div>
+		</div>
+	</header>
+
+	<section>
+		<div class="side">
+			<p>Una breve descrizione del font "Cane Nero"</p>
+		</div>
+		<article>
+			<h2>Un font per iscrizioni romane</h2>
+			<p>È possibile testare il font.</p>
+			<textarea rows="3" class="testo">A B C</textarea>
+
+			<h3>Descrizione</h3>
+			
+			<p>Il font "Cane Nero" è basato sul disegno dei caratteri di iscrizioni romane, come nel caso della <a href="https://it.wikipedia.org/wiki/Colonna_Traiana">colonna traiana</a>.</p>
+			<p>Sono presenti i caratteri latini.</p>
+			<p class="alfa">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+			<p>Tramite caratteristica '<b>ss01</b>' si ha un punto centrale in sostituzione della spaziatura e la /V in sostituzione della /U.</p>
+			<p class="alfa">AUGUSTUS IMP.</p>
+			<p class="alfa ss01">AUGUSTUS IMP.</p>
+			<p>Tramite caratteristica '<b>dlig</b>' sono accessibili alcune legature.</p>
+			<p class="alfa dlig">AE AL AM AN AR AV ER ME NE NN NT NTE TE TR VA</p>
+			
+			<p>Il nome "Cane Nero" è legato alla frase <i><a href="https://it.wikipedia.org/wiki/Cane_Nero_magna_bella_Persica">Cane Nero magna bella Persica</a></i> che in latino significa <i>Canta, o Nerone, le grandi guerre persiane</i>, ma può essere equivocato in dialetto romanesco.
+			<h3>Esempio</h3>
+			<p>Utilizzo del font <i>Cane Nero</i> con il <a href="https://github.com/m-casanova/Vermiglione">font Vermiglione</a>:</p>
+			<p class="capol">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus dolor eget tellus tincidunt, sit amet mollis ante luctus. Quisque non est maximus, tempus tellus at, faucibus tortor. In quis placerat nibh. Vivamus eu ante imperdiet, aliquet enim id, mattis orci. Cras et magna id nisl iaculis sollicitudin. Nunc ut erat et sapien posuere auctor. Donec sed augue eleifend, vestibulum est eget, rhoncus leo.</p>			
+		</article>
+	</section>
+	<footer>
+		<div>
+			<p>&copy; 2024 Michele Casanova
+		</div>
+	</footer>
+<body>
+</html>
