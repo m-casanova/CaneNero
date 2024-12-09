@@ -1,10 +1,11 @@
 # Cane Nero
+* Versione 1.101: fix esportazione
 * Versione 1.0: versione iniziale
 
 Per testare il font, vedere la [pagina interattiva](https://m-casanova.github.io/CaneNero/).
 
 ## Descrizione
-![image](CaneNero.jpg)
+![image](images/CaneNero.jpg)
 
 _Cane Nero_ è un font di test ispirato a iscrizioni romane.
 
